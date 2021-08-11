@@ -2,11 +2,11 @@
 } */
 
 .app {
-  width: 400px;
+  width: 330px;
   margin: auto;
   margin-top: 40px;
   border: transparent;
-  padding: 10px 40px;
+  padding: 10px 24px;
   border-radius: 10px;
   background-color: rgb(53, 53, 53);
   box-shadow: 10px 10px 10px 6px rgb(27, 27, 27);
