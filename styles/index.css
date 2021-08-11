@@ -16,7 +16,7 @@
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
-  color: rgb(0, 107, 195);
+  color: rgb(19, 129, 255);
 }
 
 .form {
@@ -44,7 +44,7 @@
   background-color: transparent;
   border: transparent;
   border-radius: 8px;
-  background-color: rgb(0, 102, 219);
+  background-color: rgb(19, 129, 255);
   cursor: pointer;
 }
 
