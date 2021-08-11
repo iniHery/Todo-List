@@ -1,9 +1,10 @@
 html,
 body {
+  background-color: rgb(32, 32, 32);
+  /* background-image: url("/gambar.jpg"); */
+  height: 120vh;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
