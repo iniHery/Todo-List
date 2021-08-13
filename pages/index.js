@@ -34,12 +34,6 @@ export default function Home() {
     console.log(newTodos);
   };
 
-  // const deleteTodo = (index) => {
-  //   const newTodos = [...todos];
-  //   newTodos.splice(index, 1);
-  //   setTodos("");
-  // };
-
   const onNextDay = (currentIndex) => {
     currentIndex = currentIndex + 1;
     if (currentIndex === 7) {
@@ -69,7 +63,7 @@ export default function Home() {
   };
 
   return (
-    <div className="body">
+    <div>
       <h3 className="tittle">ToDoList</h3>
       <div className="app">
         <div>
@@ -115,7 +109,6 @@ export default function Home() {
               className="button"
               style={{ verticalAlign: "middle" }}
             >
-              {/* <Image width="18px" height="18px" src="/icon/add.png" alt="add" /> */}
               <span>submit</span>
             </button>
           </form>
