@@ -30,7 +30,7 @@ export default function Home() {
         <div>
           <div className="flex-item">
             <div className="icon-left">
-              <Link href="/">
+              <Link href="TodoList5" className="icon-left">
                 <a>
                   <Image
                     width="16px"
@@ -41,15 +41,15 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="day">Monday</div>
-            <div className="icon-left">
-              <Link href="TodoList2">
+            <div className="day">Saturday</div>
+            <div className="icon-rigth">
+              <Link href="TodoList7" className="icon-left">
                 <a>
                   <Image
                     width="16px"
                     height="16px"
                     src="/icon/right-arrow.png"
-                    alt="right"
+                    alt="left"
                   />
                 </a>
               </Link>
