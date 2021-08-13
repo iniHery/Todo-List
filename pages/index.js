@@ -164,7 +164,7 @@ export default function Home() {
         })}
         <div style={{ display: "flex", justifyContent: "center" }}>
           <button onClick={() => onClearTodos()} className="button-clear">
-            Clear All
+            clear all
           </button>
         </div>
       </div>
