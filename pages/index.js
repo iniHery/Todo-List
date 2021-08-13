@@ -95,10 +95,9 @@ export default function Home() {
           </div>
           <form className="form" onSubmit={(e) => handleSubmit(e)}>
             <input
-              className="add"
+              className="input"
               placeholder="Add your text..."
               name="value"
-              className="input"
               onChange={(e) => {
                 setInputValue(e.target.value);
               }}
@@ -116,18 +115,16 @@ export default function Home() {
 
         {todos.map((todo, index) => {
           return (
-            <div className="todo-item">
+            <div key={index + "_todo"} className="todo-item">
               <div
                 style={{
                   display: "grid",
                   gridTemplateColumns: "20px auto 20px",
                   alignItems: "center",
                 }}
-                key={index + "_todo"}
               >
                 <div
                   onClick={() => onToogleCompletion(index)}
-                  key={index + "_todo"}
                   className="checked"
                 >
                   <Image
