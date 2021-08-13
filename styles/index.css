@@ -8,15 +8,23 @@
   border: transparent;
   padding: 10px 24px;
   border-radius: 10px;
-  background-color: rgb(53, 53, 53);
-  box-shadow: 10px 10px 10px 6px rgb(27, 27, 27);
+  background-color: #f5f6f8;
+
+  /* box-shadow: 10px 10px 10px 6px rgb(59, 59, 59); */
+}
+
+h3 {
+  background-color: #f5f6f8;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 12px;
 }
 
 .tittle {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
-  color: rgb(19, 129, 255);
+  color: #785ff8;
 }
 
 .form {
@@ -28,9 +36,9 @@
 
 .input {
   width: 200%;
-  padding: 16px;
+  padding: 6px 16px;
   border: transparent;
-  background-color: rgb(211, 211, 211);
+  background-color: #dedede;
   margin-right: 4px;
   border-radius: 8px;
   font-size: 16px;
@@ -44,19 +52,15 @@
   background-color: transparent;
   border: transparent;
   border-radius: 8px;
-  background-color: rgb(19, 129, 255);
+  background-color: #d7cffd;
   cursor: pointer;
 }
 
 .todo-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   border: transparent;
-  background-color: rgb(211, 211, 211);
+  background-color: #dedede;
   border-radius: 8px;
-  padding: 0px 16px;
+  padding: 10px 16px;
   margin-bottom: 18px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
@@ -64,12 +68,48 @@
 }
 
 .todo-item .label {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .todo-item .delete-button {
-  justify-content: end;
+  justify-content: space-between;
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.day {
+  padding: 0px 60px;
+  /* font-family: sans-serif; */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 26px;
+  color: #785ff8;
+}
+
+.icon-left {
+  padding-top: 8px;
+}
+
+.icon-rigth {
+  padding-top: 8px;
+}
+
+.add {
+  margin: 10px;
+  font-size: 13pt;
+  padding: 10px;
+  background: transparent;
+  color: rgb(236, 0, 0);
+  font-family: roboto;
+  border: none;
 }

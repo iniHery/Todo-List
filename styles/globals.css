@@ -1,17 +1,17 @@
 html,
 body {
-  background-color: rgb(32, 32, 32);
+  background-color: #785ff8;
   /* background-image: url("/gambar.jpg"); */
   height: 120vh;
   padding: 0;
   margin: 0;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
-}
+} */
